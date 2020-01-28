@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif&display=swap");
+
+body {
+  font-family: "PT Serif", serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/bcg.jpeg);
+  color: #f1ffe7;
+  letter-spacing: 0.2rem;
+  min-height: 100vh;
+  text-align: center;
+  padding: 100px;
+  box-sizing: border-box;
+}
+.container {
+  background-color: rgba(97, 208, 149, 0.5);
+  width: 80vw;
+  padding: 40px;
+  height: 50vh;
+  border-left: 5px solid #e7e247;
+}
+.quote-text {
+  min-height: 20vh;
+}
+.container h1 {
+  font-size: 30px;
+  text-align: left;
+}
+
+.container p {
+  text-transform: capitalize;
+  color: #f0a202;
+  font-weight: bold;
+  text-align: right;
+  font-style: italic;
+  font-size: 30px;
+}
+
+#btn {
+  margin-top: 30px;
+  font-size: 25px;
+  padding: 10px 20px;
+  background-color: #ac3931;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  outline: none;
+}
+#btn:hover {
+  background-color: white;
+  color: #ac3931;
+  cursor: pointer;
+}

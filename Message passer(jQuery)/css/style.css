@@ -1,0 +1,44 @@
+body {
+  background-color: #f3e9dc;
+  min-height: 100vh;
+  text-align: center;
+}
+.banner {
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #f58f29;
+  margin: 25px 0 50px 0;
+}
+.message {
+  font-size: 40px;
+  text-align: left;
+  text-transform: capitalize;
+  background-color: #fff;
+  width: 75%;
+  height: 150px;
+  padding: 20px 20px;
+  margin: 20px auto 40px auto;
+}
+
+#text {
+  font-size: 30px;
+  padding: 40px 20px;
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+}
+.btn {
+  margin: 40px;
+  padding: 10px 15px;
+  font-size: 25px;
+  background-color: #99c24d;
+  color: black;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  outline: none;
+}
+.btn:hover {
+  color: #99c24d;
+  background-color: black;
+  cursor: pointer;
+}
